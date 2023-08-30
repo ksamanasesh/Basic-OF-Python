@@ -1,0 +1,16 @@
+name = input("Enter Your Name :")
+reg  = (input("Enter Your Register No :"))
+m1   = int(input("Enter the tamil Mark"))
+m2   = int (input("Enter the English Mark"))
+m3   = int (input("Enter the Maths Mark"))
+m4   = int (input("Enter the Science Mark"))
+m5   = int (input("Enter the Social Mark"))
+
+total = (m1+m2+m3+m4+m5)
+tt = str(total)
+per   = str(total/5)
+
+print("Your name : "+name)
+print("Your register no : "+reg)
+print("Your Total Mark : "+tt)
+print("Your Percentage : "+per)
